@@ -140,7 +140,7 @@ double measure_time2(int MAX)
         ta = microseconds();
         for(i =0; i < K; i++){
             init_seed();
-            random_init(v,MAX);
+            random_init(v,MAX); 
             maxSubSum2(v,MAX);
         }
         tb = microseconds();
